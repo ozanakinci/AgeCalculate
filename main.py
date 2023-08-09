@@ -21,7 +21,7 @@ def AgeCalc():
 
     textArea = Text(master=window,height=10,width=25)
     textArea.grid(column=1, row=6)
-    answer = " Heyy {monkey}!!!. You are {age} years old!!! ".format(monkey=name, age=monthkey.age())
+    answer = " Heyy {namekey}!!!. You are {age} years old!!! ".format(namekey=name, age=monthkey.age())
     textArea.insert(END, answer)
 
 
